@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My IT World</title>
+    <!--Link--> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">BSOD</h2>
+          <div class="toggle"></div>
+        </header>
+
+        <video src="image/pexels-free-creative-stuff-5575178.mp4" muted loop autoplay></video>
+        
+        <div class="overlay"></div>
+
+        <div class="text">
+          <h2>We are</h2> 
+          <h3>Blue Screen of Death</h3>
+          <p>BSOD is a team established with five members. The BSOD website is developed to bring a satisfying experience for the visitors on a variety of platforms such as pcs, laptops, and mobile phones.<br> Numerous content is waiting for you to explore- Team Profile, Industry Data, IT Technology, IT Work, especially our primary project, ARC.</p>
+          <a style="text-decoration:none" href="portfolio.html"><button type="button">Explore<img src="image/right-arrow (3).png"></button></a>
+        </div>
+
+        <!--SOCIAL--> 
+        <ul class="social">
+          <li><a href="https://github.com/Blue-Screen-of-Death-BSOD/A2-BSOD-MIW.git"><img src="https://i.ibb.co/dkksrtf/github-1.png"></a></li>
+        </ul>
+      </section>
+      
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">Our Team</a></li>
+          <li><a href="portfolio.html">BSOD Cinema</a></li>
+        </ul>
+      </div>
+
+      <!--SCRIPT--> 
+      <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+
+            menuToggle.addEventListener('click', () =>{
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');})
+      </script>
+</body>
+
+
+</html>
